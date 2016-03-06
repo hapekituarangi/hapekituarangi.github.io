@@ -21,6 +21,10 @@ body {
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
 ul {
     list-style-type: none;
