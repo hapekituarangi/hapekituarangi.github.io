@@ -294,6 +294,13 @@ h1{
     margin-right: auto;
     margin-bottom: 3%
 }
+
+.main-content img {
+    display: block;
+    width: 100%;
+    border-radius: 1000px;   
+}
+
 /*Blog selector*/
 
 .select h3 {
