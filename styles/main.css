@@ -294,3 +294,126 @@ h1{
     margin-right: auto;
     margin-bottom: 3%
 }
+/*Blog selector*/
+
+.select h3 {
+font-size: 2em;
+  letter-spacing: 0.05em;
+  padding: 0.5em 0;
+  margin: 0.35em auto 0.75em;
+  position: center;
+
+}
+
+.selection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.selection {
+    font-size: 9px;
+}
+
+.selection ul {
+  list-style-type: none;
+  padding: 0;
+  overflow-x: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.selection li {
+  text-align: left;
+  color: transparent;
+  margin-bottom: 0.28em;
+  clear: both;
+
+}
+
+.selection li a {
+  text-decoration: none;
+  color: #3f3d3a;
+
+}
+
+.selection a:hover, .selection a:focus {
+  color: #e5452c;
+}
+
+
+.blog-name {
+  font-style: italic;
+  background: #fff;
+  padding-right: 0.25em;
+}
+
+.blog-name:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    color: #3f3d3a;
+    content: "...................................................................................................................................................................................................................................................................................."
+}
+
+.blog-details {
+  float: right;
+  font-size: 1em;
+  text-transform: uppercase;
+  background: #fff;
+  padding-left: 0.25em;
+}
+/*Blog selector media queries*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .selection ul{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.selection {
+    font-size: 14px;
+}
+}
+/* Lager than phablet*/
+@media (min-width: 550px) {
+  .selection ul{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.selection {
+    font-size: 12px;
+}
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .selection ul{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.selection {
+    font-size: 14px;
+}
+}
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .selection ul{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.selection {
+    font-size: 16px;
+}
+}
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .selection ul{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.selection {
+    font-size: 16px;
+}
+}
+
+
