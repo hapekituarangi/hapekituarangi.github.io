@@ -282,10 +282,7 @@ h1{
   font-size: 13px;
 }
 }
-/*main-content*/
-.main-content{
-    border-bottom: 2px solid #999;
-}
+
 /*Profile Picture*/
 .main-content img{
     max-width: 85px;
@@ -299,5 +296,11 @@ h1{
     display: block;
     width: 100%;
     border-radius: 1000px;   
+}
+/*footer*/
+.footer a{
+    padding-right: 1.0em;
+    padding-left: 1.0em;
+    margin-bottom: 30px;
 }
 
