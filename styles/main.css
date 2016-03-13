@@ -106,7 +106,7 @@ h1{
 
 #menu > ul > li > a {
   color: #000000;
-  font-size: 11px;
+  font-size: 10px;
 }
 #menu > ul > li:hover:after {
   content: '';
@@ -211,7 +211,7 @@ h1{
     padding:0;
 }
 #menu > ul > li > a {
-  font-size: 11px;
+  font-size: 10px;
 }
 }
 /* Lager than phablet*/
@@ -264,4 +264,33 @@ h1{
 #menu > ul > li > a {
   font-size: 13px;
 }
+}
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+.banner{
+  background: url("family-group1.jpg") center center no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 280px;
+    width: 100%;
+    padding:0;
+}
+#menu > ul > li > a {
+  font-size: 13px;
+}
+}
+/*main-content*/
+.main-content{
+    border-bottom: 2px solid #999;
+}
+/*Profile Picture*/
+.main-content img{
+    max-width: 85px;
+    max-height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%
 }
