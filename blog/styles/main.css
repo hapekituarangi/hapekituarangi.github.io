@@ -46,7 +46,7 @@ body {
    position: absolute;
    top:60px;
    padding-left: 10px;
-   padding-right: 10px;
+   padding-right: 10px; 
    font-size: 18px;
 }
 .content-img h4 { 
@@ -80,7 +80,6 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  text-align: center;
 }
 
 #menu {
@@ -252,33 +251,46 @@ body {
 #menu > ul > li > a {
   font-size: 12px;
 }
+#menu .has-sub ul li a {
+  font-size: 13px
 }
+}
+
 /* Larger than tablet */
 @media (min-width: 750px) {
 
 #menu > ul > li > a {
-  font-size: 12px;
+  font-size: 14px;
+}
+#menu .has-sub ul li a {
+  font-size: 13px
 }
 }
 /* Larger than desktop */
 @media (min-width: 1000px) {
 
 #menu > ul > li > a {
-  font-size: 13px;
+  font-size: 14px;
+}
+#menu .has-sub ul li a {
+  font-size: 13px
 }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 
 #menu > ul > li > a {
-  font-size: 13px;
+  font-size: 14px;
+}
+#menu .has-sub ul li a {
+  font-size: 13px
 }
 }
 
 /*footer*/
-.footer a {
-  padding-right: 1.0em;
-  padding-left: 1.0em;
-  padding-bottom: 20px;
+.footer a{
+    padding-right: 1.0em;
+    padding-left: 1.0em;
+    padding-bottom: 20px;
 }
 
