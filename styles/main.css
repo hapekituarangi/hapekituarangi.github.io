@@ -50,20 +50,20 @@ body {
    
 }
 .content-img p { 
-   color: white;
-   text-align: right;
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   position: absolute;
-   top:220px;
-   right: 0;
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-bottom: 5px;
-   padding-top: 5px;
-   margin-left: 7%;
-   margin-right: 7%;
+  color: white;
+  text-align: right;
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top:220px;
+  right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 /*.content-img #whakatauki{
@@ -333,7 +333,7 @@ body {
   font-size: 12px;
 }
 #menu .has-sub ul li a {
-  font-size: 13px
+  font-size: 13px;
 }
 }
 
@@ -344,7 +344,7 @@ body {
   font-size: 14px;
 }
 #menu .has-sub ul li a {
-  font-size: 13px
+  font-size: 13px;
 }
 }
 /* Larger than desktop */
@@ -354,7 +354,7 @@ body {
   font-size: 14px;
 }
 #menu .has-sub ul li a {
-  font-size: 13px
+  font-size: 13px;
 }
 }
 /* Larger than Desktop HD */
@@ -364,7 +364,7 @@ body {
   font-size: 14px;
 }
 #menu .has-sub ul li a {
-  font-size: 13px
+  font-size: 13px;
 }
 }
 
