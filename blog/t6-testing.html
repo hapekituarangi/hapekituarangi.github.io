@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hape's EDA Journey</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  </head>
+      
+  <body>
+    <div class="page-wrapper">
+      <div class="container">
+        <div class="twelve columns nav">
+        <nav>
+          <div id="menu">
+            <ul>
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li class="has-sub">
+              <a href="#">Blog</a>
+                <ul>
+                <li class="has-sub">
+                  <a href="#">Cultural blog</a>
+                <ul>
+                <li>
+                  <a href="c1-reflection-blog.html">Reflection Around The Fire</a>
+                </li>
+                <li>
+                  <a href="c1-time-and-habits-blog.html">Time and Habits</a>
+                </li>
+                <li>
+                  <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+                </li>
+                <li>
+                  <a href="c3-meditation-process.html">Meditation and Process</a>
+                </li>
+                <li>
+                  <a href="c4-daily-mindfulness.html">Daily Mindfulness</a>
+                </li>
+                <li>
+                  <a href="c5-self-confidence.html">Self Awareness</a>
+                </li>
+                <li class="last">
+                  <a href="c6-control.html">Control</a>
+                </li>
+                </ul>
+            </li>
+            <li class="has-sub">
+              <a href="#">Technical</a>
+                <ul>
+                <li>
+                  <a href="t2-html-css-dom-p1.html">HTML-CSS-DOM Part 1</a>
+                </li>
+                <li>
+                  <a href="t2-html-css-dom-p2.html">HTML-CSS-DOM Part 2</a>
+                </li>
+                <li>
+                  <a href="t3-design-to-web-blog.html">Design to Web</a>
+                </li>
+                <li>
+                  <a href="t4-javascript-basics.html">JavaScript Basics</a>
+                </li>
+                <li>
+                  <a href="t5-problem-solving.html">Problem Solving</a>
+                </li>
+                <li>
+                  <a href="t6-js-language.html">JavaScript Language</a>
+                </li>
+                <li class="last">
+                  <a href="t6-testing.html">Scope</a>
+                </li>
+                </ul>
+            </li>
+            </ul>
+            </li>
+            <li>
+              <a href="#">About Me</a>
+            </li>
+            <li class="last">
+              <a href="#">Contact</a>
+            </li>
+            </ul>
+          </div>
+        </nav>  
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns main-content">
+          <div class="container">
+          <div class="row">
+          <div class="twelve columns content-img">
+          <img id="content-img" src="styles/js.jpg" alt="" />
+          <h1 id="light-font">SCOPE</h1>
+          <h4 id="light-font">Technical Blog</h4>
+          <h6 id="light-font">15.APR.2016</h6>
+          </div>
+          </div>
+          </div>
+          <h5>What 'scope' is, and how it works in JavaScript.</h5>
+            <p>
+              In JavaScript, ccope is the extent to which a given variable is visible to the rest of the program.
+            </p>
+            <p>
+              JavaScript has two scopes: global and local. A variable that is declared outside a function definition is a global variable, and its value is accessible and modifiable throughout your program or webpage. A variable that is declared inside a function definition is local and can only be used inside that function.
+            </p>
+            <p>
+              Imagine a room inside a room. The outer room represents the program as a whole. The inner room represents a function within the program. The inner room has windows which allow people inside the room to look out into the larger outer room. However these windows are one-sided like those windows you see in police interrogation rooms in movies. On one side it acts like a regular window, but on the other it is just a mirror. In this case, though, the windows are reversed. So the people in the inner room can look out into the outer room, but those in the outer room can only see their own reflection when they try to look through into the inner room.
+            </p>
+            <p>
+              This is a bit how scope works. Variables declared in the outer room, or in the general program, have 'global scope', and are visible to every bit of code in any of the inner rooms. However, variables declared in one of the inner rooms have what's called 'local scope' and when the outer program tries to look at them, they can't, because their view is reflected back at them. There can be as many rooms in a program as one likes even inside each other. So if another room existed inside the inner room, the inner inner room could see all variables in the inner room and outer room but the outer room and inner room would not be able to see any of the variables in the inner inner room. This structure prevents a function from inadvertently altering the rest of the program. It also means that two variables with the same name can simultaneously exist in the program and contain different values.
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="12 columns footer">
+          <a href="https://github.com/hapekituarangi">
+            <img title="Github" src="styles/github.png" alt="Github" width="35" height="35" />
+         </a>
+          <a href="https://www.facebook.com/profile.php?id=100008147745485">
+            <img title="Facebook" src="styles/fb-3.png" alt="Facebook" width="35" height="35" />
+          </a>
+          <a href="http://www.meetup.com/members/198118154/">
+            <img title="Meet Up" src="styles/meetup-1.png" alt="Meet Up" width="35" height="35" />
+          </a> 
+          <a href="mailto:hape.porter@gmail.com">
+            <img title="Email" src="styles/gmail.png" alt="Email" width="35" height="35" />
+          </a>
+          <h6>COPYRIGHT © Hape Ki Tuarangi Cook-Porter 2016</h6>
+        </div>
+      </div>
+    </div>   
+  </body>
+</html>
